@@ -14,8 +14,7 @@ struct Cliente
 void clearBuffer()
 {
 	int c;
-	while ((c = getchar()) != '\n' && c != EOF)
-		;
+	while ((c = getchar()) != '\n' && c != EOF);
 }
 
 void cadastrarAtendimento(struct Cliente atendimentos[], int *num_atendimentos)
